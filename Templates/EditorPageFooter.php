@@ -222,27 +222,28 @@
 
 					<ul class="tag">
 
-						<li><a href="index.html">Home</a></li>
+					<li><a href="home.php">Home</a></li>
+                                        <li><a class="active" href="index.php">All Blogs</a></li>
+					<li><a href="about.php">The Philosophy</a></li>
+					<li ><a href="index.php?cat=pampering">Pampering</a></li>
 
-					<li><a href="about.html">About Us</a></li>
+					<li><a href="index.php?cat=travel">Travel</a></li>
+                                         <!--<li class="dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Food and Drink <span class="caret"></span></a>
+					  <ul class="dropdown-menu">
+					  <li class="placestoeat<//?php if ($section == "placestoeat") {echo " on"; } ?>"><a href="index.php?cat=placestoeat">Places to Eat</a></li>
+						<li><a href="typo.html">Favourite Drinks</a></li>
+                                                <li><a href="typo.html">High Tea Hot Spots</a></li>
 
-					<li><a href="lifestyle.html">Pampering</a></li>
-
-					<li><a href="fashion.html">Travel</a></li>
-
-                                        <li><a href="icons.html">Places to Eat</a></li>
-
-                                        <li><a href="typo.html">Favourite Drinks</a></li>
-
-                                        <li><a href="features.html">High Tea Hotspots</a></li>
-
-                                        <li><a href="photography.html">Furry Friends</a></li>
-
-					<li><a href="quiz.html">How Much GrandmaLife Are You Living?</a></li>
-
-                                        <li><a href="Login.html">Login</a></li>
-
-					<li><a href="contact.html">Contact</a></li>
+					  </ul>
+					</li>-->
+                                        <li><a href="index.php?cat=furryfriends">Furry Friends</a></li>
+					<li><a href="index.php?cat=moviesandmusic">Movies and Music</a></li>
+					<li><a href="quiz.php">How much GrandmaLife are you living?</a></li>
+					<li><a href="login.php">Login</a></li>
+					<li><a href="userindex.php">Settings</a></li>
+                                        <li><a href="feedback.php">Feedback</a></li>
+                                        <li><a href="game.php">Games</a></li>
 
 					</ul>
 
@@ -356,7 +357,7 @@
 
                                         <li><a class="active" href="index.php">All Blogs</a></li>
 
-					<li><a href="about.php">About Us</a></li>
+					<li><a href="aboutus.php">The Philosophy</a></li>
 
 					<li class="pampering<?php if ($section == "pampering") {echo " on"; } ?>"><a href="index.php?cat=pampering">Pampering</a></li>
 

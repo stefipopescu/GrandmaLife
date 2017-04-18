@@ -1,2 +1,2 @@
-# GrandmaLife
-The latest updates for the project
+# A-Team
+Grandma life blog

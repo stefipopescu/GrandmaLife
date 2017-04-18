@@ -1,6 +1,6 @@
 <?php
 require_once('includes/config.php');
-include 'templates/EditorPageHeader.php';
+include 'EditorPageHeaderblogs.php';
 include "loginheader.php";
 //include "connection.php";
 

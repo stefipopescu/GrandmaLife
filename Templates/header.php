@@ -89,11 +89,11 @@ $(document).ready(function(){
 				  <ul class="nav navbar-nav">
 					<li><a href="home.php">Home</a></li>
                                         <li><a class="active" href="index.php">All Blogs</a></li>
-					<li><a href="about.php">About Us</a></li>
+					<li><a href="aboutus.php">The Philosophy</a></li>
 					
 					<li><a href="quiz.php">How much GrandmaLife are you living?</a></li>
 					<li><a href="login.php">Login</a></li>
-					<li><a href="contact.php">Contact</a></li>
+					<li><a href="userindex.php">User Settings</a></li>
                                         <li><a href="feedback.php">Feedback</a></li>
                                         <li><a href="game.php">Games</a></li>
 				  </ul>
@@ -138,6 +138,6 @@ $(document).ready(function(){
 			<div class="col-md-9 btm-wthree-left">
 				<div class="single-left">
 				<div class="single-left1">
-					<img src="images/Logocopy.jpg" alt=" " class="img-responsive" />
+					<img src="" alt=" " class="img-responsive" />
 
 				</div>

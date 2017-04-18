@@ -1,6 +1,5 @@
 <?php
 ob_start();
-
 //database credentials
 $dsn = "mysql:host=localhost;dbname=login";
         $user = "root";

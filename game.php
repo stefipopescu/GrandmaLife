@@ -1,16 +1,13 @@
 <!DOCTYPE html>
-
-
-      <?php 
-      $section = 'Game';
-      //please leave this header and footer
-      include "Templates/EditorPageHeaderMain.php"; ?>
+      <?php include "Templates/EditorPageHeaderMain.php"; ?>
         
 <html>
     <head>
         <meta charset="UTF-8"> 
         <title>Let's play a game!</title>
-
+            <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" /><!-- fontawesome -->
+            <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" /><!-- Bootstrap stylesheet -->
+            <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
           
     </head>
     <body>

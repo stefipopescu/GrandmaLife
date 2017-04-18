@@ -62,29 +62,11 @@ $(document).ready(function(){
         include("header.php");
         ?>
 	<!-- //header -->
-	<!-- banner -->
+	<!-- banner
 	<div class="agile-banner">
-	</div>
+	</div> -->
 	<!-- //banner -->
 	<!-- breadcrumbs -->
-	<div class="breadcrumbs">
-		<div class="container">
-			<ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
-				<li><a href="index.html">Home</a></li>
-				<li class="active">Single Page</li>
-			</ol>
-		</div>
-	</div>
-<!-- //breadcrumbs -->
-	<div class="container">
-		<div class="banner-btm-agile">
-		<!-- //btm-wthree-left -->
-			<div class="col-md-9 btm-wthree-left">
-				<div class="single-left">
-				<div class="single-left1">
-					<img src="images/Logocopy.jpg" alt=" " class="img-responsive" />
-
-				
-				</div>
+	
 				
 				

@@ -2,34 +2,10 @@
 $pageTitle = "Home Page";
 $section = null;
 
-require_once('Templates/EditorPageHeaderMain.php');?>
+require_once('Templates/EditorPageHeader.php');?>
 
 
-<ul id="demo1">
-			<li>
-                        <img src="images\Logo.jpg" alt="Logo" align="middle" height="520" width="1020" />
-				<!--Slider Description example-->
-				<!--<div class="slide-desc">
-					<h3></h3>
-					<p> </p>
-				</div> -->
-			</li>
-			<!--<li>
-				<img src="images\Quotes\Quote1.gif" alt="Inspiring Quote" height="520" width="320"/>
-				  <div class="slide-desc">
-					<h3></h3>
-					<p></p>
-				</div>
-			</li>
-			<li>
-				<img src="images\Quotes\Quote2.jpg" alt="Inspiring Quote" height="520" width="320"/>
-				<div class="slide-desc">
-					<h3></h3>
-					<p></p>
-				</div>
-			</li> -->
-			
-		</ul>
+
 	<!--</div>-->
 	<!-- //main-slider -->
 	<!-- //top-header and slider -->
@@ -40,7 +16,7 @@ require_once('Templates/EditorPageHeaderMain.php');?>
 				<div class="wthree-top">
 					<div class="w3agile-top">
 						<div class="w3agile_special_deals_grid_left_grid">
-							<a href="singlepage.html"><img src="images/4.jpg" class="img-responsive" alt="" /></a>
+							<a href="singlepage.html"><img src="images/logo.jpg" class="img-responsive" alt="" /></a>
 						</div>
 						<div class="w3agile-middle">
 						<ul>
@@ -215,11 +191,7 @@ require_once('Templates/EditorPageHeaderMain.php');?>
 				<div class="w3ls-social-icons-1">
 					<a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
 					<a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-					<a class="pinterest" href="#"><i class="fa fa-pinterest-p"></i></a>
-					<a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-					<a class="linkedin" href="#"><i class="fa fa-google-plus"></i></a>
-					<a class="linkedin" href="#"><i class="fa fa-rss"></i></a>
-					<a class="linkedin" href="#"><i class="fa fa-behance"></i></a>
+			
 				</div>
 				</div>
 				<div class="w3ls_popular_posts">
