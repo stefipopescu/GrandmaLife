@@ -1,2 +1,2 @@
-# A-Team
+# GrandmaLife
 Grandma life blog
