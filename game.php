@@ -3,7 +3,8 @@
 
       <?php 
       $section = 'Game';
-      include "Templates/editorpageheaderblogs.php"; ?>
+      //please leave this header and footer
+      include "Templates/EditorPageHeaderMain.php"; ?>
         
 <html>
     <head>
@@ -40,7 +41,7 @@
     </body>
 </html>
 
-  <?php include "Templates/editorpagefooter.php"; ?>
+  <?php include "Templates/footer.php"; ?>
 
 
 

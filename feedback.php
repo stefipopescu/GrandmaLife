@@ -1,5 +1,10 @@
 <?php 
-include "templates/editorpageheaderblogs.php" ?>
+
+//please do not close the php code as it's blocking the below to run!
+
+//please leave thid header, because the others all have too much white space
+include "Templates/EditorPageHeaderMain.php";
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = trim(filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING));
     $email = trim(filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL));
@@ -48,14 +53,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 
-include "Templates/header.php";
+
 
 
 $pageTitle = "Feedback";
 $section = null;
 
 
-//include "Templates/header.php"; 
+
 ?>
 
 <html>
