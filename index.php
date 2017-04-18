@@ -19,6 +19,6 @@ include "templates/editorpageheader.php"; ?>
       </div>
     </div> <!-- /container -->
   </body>
-</html>
+</html> 
 
 <?php include "templates/editorpagefooter.php";

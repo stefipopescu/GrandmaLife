@@ -50,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 
-include "Templates/EditorPageHeader.php";
+include "Templates/EditorPageHeaderMain.php";
 
 
 $pageTitle = "Feedback";
@@ -68,14 +68,7 @@ $section = null;
   <body>
 
   
-    <h1 style="text-align:center; font-size:30px; margin-bottom:40px; margin-top:30px;">
-        Get in Touch
-    </h1>
-      
-      <div class="agile-map">
-          <h3>Find Us</h3>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9937.636130696019!2d-0.3293134!3d51.487361!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7cc3b89c3e0e13f2!2sSky!5e0!3m2!1sen!2suk!4v1492241657803" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>"
-			</div>
+
             <?php
     if (isset($_GET["status"]) && $_GET["status"] == "thanks") {
         echo "<p>Thank you for the email! Your feedback is valuable to us!</p>";
@@ -135,9 +128,18 @@ $section = null;
         </center>
       </form>
         
+            <h1 style="text-align:center; font-size:30px; margin-bottom:40px; margin-top:30px;">
+        Get in Touch
+    </h1>
+      
+      <div class="agile-map">
+          <h3>Find Us</h3>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9937.636130696019!2d-0.3293134!3d51.487361!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7cc3b89c3e0e13f2!2sSky!5e0!3m2!1sen!2suk!4v1492241657803" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>"
+			</div>
+        
 
       </div>
   
       <?php } ?> 
       
-<?php include "Templates/editorpagefooter.php"; 
+<?php include "Templates/footer.php"; 
